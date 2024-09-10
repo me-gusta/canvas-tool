@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#canvasContainer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+#fileUpload, #getCoordinates, #removePoints {
+    margin-bottom: 10px;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
